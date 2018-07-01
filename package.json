@@ -1,0 +1,68 @@
+{
+  "name": "rn-classnames",
+  "version": "1.0.0",
+  "description": "A simple javascript utility for conditionally joining className objects together",
+  "main": "build.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "babel index.js --out-file build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entwicklerstube/rn-classnames.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "react-native",
+    "css",
+    "scss",
+    "classnames",
+    "util",
+    "utility",
+    "concat",
+    "jsx",
+    "name",
+    "names",
+    "class-names",
+    "classes",
+    "join",
+    "concat",
+    "stylesheet",
+    "style-sheet"
+  ],
+  "author": "Michael J. Zoidl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/entwicklerstube/rn-classnames/issues"
+  },
+  "homepage": "https://github.com/entwicklerstube/rn-classnames#readme",
+  "babel": {
+    "presets": [
+      "minify",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8"
+          }
+        }
+      ]
+    ]
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "jest-extended"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "jest": "^23.2.0",
+    "jest-extended": "^0.7.2"
+  }
+}
