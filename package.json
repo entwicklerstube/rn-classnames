@@ -1,6 +1,6 @@
 {
   "name": "rn-classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conditionally concatenate react-native StyleSheet-Objects together",
   "main": "build.js",
   "scripts": {
