@@ -8,6 +8,7 @@
     "test:coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "test:watch": "jest --watch",
     "build": "babel index.js --out-file build.js",
+    "prepublish": "npm run build",
     "prepublishOnly": "np --no-publish"
   },
   "repository": {
