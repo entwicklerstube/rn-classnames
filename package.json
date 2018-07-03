@@ -5,6 +5,7 @@
   "main": "build.js",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "test:watch": "jest --watch",
     "build": "babel index.js --out-file build.js",
     "prepublishOnly": "np --no-publish"
@@ -63,6 +64,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.4.3",
+    "coveralls": "^3.0.2",
     "jest": "^23.2.0",
     "jest-extended": "^0.7.2",
     "np": "^3.0.4"
