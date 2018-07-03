@@ -53,9 +53,9 @@ className(
 ```
 Pass your react-native `StyleSheet`
 
-**returns** `picker: Function`
+**returns** `cn: Function`
 
-#### `picker()`
+#### `cn()`
 ```
 cn(
   arguments: String|Array|Object
