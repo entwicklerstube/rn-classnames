@@ -1,4 +1,4 @@
-# rn-classnames [![Build Status](https://travis-ci.com/entwicklerstube/rn-classnames.svg?branch=master)](https://travis-ci.com/entwicklerstube/rn-classnames) [![Coverage Status](https://coveralls.io/repos/github/entwicklerstube/rn-classnames/badge.svg?branch=master)](https://coveralls.io/github/entwicklerstube/rn-classnames?branch=master)
+# rn-classnames [![Build Status](https://travis-ci.com/entwicklerstube/rn-classnames.svg?branch=master)](https://travis-ci.com/entwicklerstube/rn-classnames) [![Coverage Status](https://coveralls.io/repos/github/entwicklerstube/rn-classnames/badge.svg?branch=master)](https://coveralls.io/github/entwicklerstube/rn-classnames?branch=master) [![gzip size](http://img.badgesize.io/https://cdn.jsdelivr.net/npm/rn-classnames/build.js?compression=gzip)](https://cdn.jsdelivr.net/npm/rn-classnames/build.js)
 > Conditionally concatenate react-native `StyleSheet`-Objects together
 
 ## Install
