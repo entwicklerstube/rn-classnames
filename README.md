@@ -137,3 +137,6 @@ export default ({ hide }) => (
   </View>
 )
 ```
+
+## License
+MIT © Entwicklerstube
