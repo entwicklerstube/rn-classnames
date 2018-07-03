@@ -40,7 +40,7 @@ cn('test', [['hello_world', ['main'], 'foobar'], [{ text: true }]])
 cn(['this', 'classNames', 'will', 'not', 'appear'])
 
 // Ignores not supported types
-cn(false, true, new Date(), 123, null, undefined, Symbol(), () => "iam a function");
+cn(false, true, new Date(), 123, null, undefined, Symbol(), () => "i'am a function");
 ```
 
 ## API
