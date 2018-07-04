@@ -28,19 +28,19 @@ cn(['main'])
 cn('main', { text: true }, 'hello', ['world'], { foobar: true }, [ 'example' ])
 
 // Supports computed keys
-const ai = 'ai';
-cn(`m${ai}n`);
-cn({ [`m${ai}n`]: true });
-cn([`m${ai}n`]);
+const plattform = 'IOS';
+cn(`button-${plattform}`);
+cn({ [`button-${plattform}`]: true });
+cn([`button-${plattform}`]);
 
-// Nested array, but i dont recommend this, looks confusing
+// Nested array, but i do not recommend this, looks confusing
 cn('test', [['hello_world', ['main'], 'foobar'], [{ text: true }]])
 
 // Removes not found / available styles
 cn(['this', 'classNames', 'will', 'not', 'appear'])
 
 // Ignores not supported types
-cn(false, true, new Date(), 123, null, undefined, Symbol(), () => "i'am a function");
+cn(false, true, new Date(), 123, null, undefined, Symbol(), () => 'I am a function');
 ```
 
 ## API
